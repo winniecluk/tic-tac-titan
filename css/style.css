@@ -1,0 +1,151 @@
+body {
+  background: url('../images/scroll.jpg');
+  font-family: 'Yatra One', cursive;
+  background-size: contain;
+}
+
+#introlevi {
+  height: 160px;
+  position: relative;
+  top: 60px;
+}
+
+#introtitan {
+  height: 340px;
+  margin: 0 30px;
+}
+
+.story {
+  width: 500px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: white;
+}
+
+#intro {
+  margin: 0 auto;
+  border: 0;
+}
+
+#player1 {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  top: -38px;
+  margin: 0 auto;
+}
+
+#player2 {
+  text-align: center;
+  padding: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+#namefield1 {
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -40px;
+}
+
+#namefield2 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#head {
+  width: 600px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+#tablecenter {
+  margin: 0 auto;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  cellpadding: 0;
+  cellspacing: 0;
+  border: none;
+}
+
+#levi {
+  width: 180px;
+  position: relative;
+  top: 30px;
+}
+
+#titan {
+  margin: 0 40px 0 40px;
+  height: 220px;
+  position: relative;
+  top: 20px;
+}
+
+#story {
+  float: left;
+}
+
+table.board {
+  border: 1px black solid;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-spacing: 0px;
+  background: url('../images/map-transparent.jpg');
+  background-size: contain;
+}
+
+td {
+  border: 1px black solid;
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  margin: 0 auto;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
+
+#result {
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  left: 180px;
+  top: 200px;
+  background: white;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#leviWins {
+  width: 200px;
+  float: left;
+/*  position: block;*/
+}
+
+#titanWins {
+  height: 200px;
+  float: left;
+}
+
+#reset {
+  font-family: 'Yatra One', cursive;
+  font-size: 20px;
+  background-color: #AA7739;
+  border-radius: 4px;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}

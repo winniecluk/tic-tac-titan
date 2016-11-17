@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tic Tac Titan</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet">
+</head>
+<body>
+  <img src="images/tic-tac-titan.png" alt="Attack on Titan Tic Tac Toe" id="head">
+  <table id="tablecenter">
+    <tr>
+      <td>
+        <h2 id ="player1">Puny Human</h2>
+        <p id = "namefield1"><input type="text" placeholder = "Enter your name" id="name1textbox">
+  <button id="enter1">Enter</button></p>
+        <img src="images/levi-fullbody.png" alt="Captain Levi" id="levi">
+      </td>
+      <td border = "0" cellpadding ="0" cellspacing = "0">
+        <table class = "board">
+          <tr id = "row1">
+            <td id = "box1"></td>
+            <td id = "box2"></td>
+            <td id = "box3"></td>
+          </tr>
+          <tr id = "row2">
+            <td id = "box4"></td>
+            <td id = "box5"></td>
+            <td id = "box6"></td>
+          </tr>
+          <tr id = "row3">
+            <td id = "box7"></td>
+            <td id = "box8"></td>
+            <td id = "box9"></td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <h2 id="player2">Ravenous Titan</h2>
+        <p id = "namefield2"><input type="text" placeholder = "Enter your name" id="name2textbox">
+        <button id="enter2">Enter</button></p>
+        <img src="images/titan-fullbody.png" alt="Titan" id="titan">
+      </td>
+    </tr>
+  </table>
+      <br>
+      <p id = "result"></p>
+      <div>
+        <button id= "reset">Reset</button>
+      </div>
+<script src="js/app.js"></script>
+</body>
+</html>
